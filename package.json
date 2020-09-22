@@ -1,0 +1,23 @@
+{
+  "name": "ProxyServer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsnd --transpile-only --respawn --ignore-watch node_modules src/server.ts"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "http-proxy-middleware": "^1.0.5",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.7",
+    "ts-node-dev": "^1.0.0-pre.56",
+    "typescript": "^3.9.7"
+  },
+  "repository": "https://github.com/ScripTech/ProxyServer.git",
+  "author": "Edilson D Mucanze <42839422+ScripTech@users.noreply.github.com>",
+  "license": "MIT",
+  "private": false
+}
